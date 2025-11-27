@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-array"
+version = "0.1.0"
+description = "A Python library for expressing and manipulating quantum chip topologies with an array/geometry view"
+readme = "README.md"
+authors = [
+    {name = "M1racleShih", email = "hanqshih@222222gmail.com"}
+]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+keywords = ["quantum", "computing", "topology", "array", "geometry"]
+dependencies = [
+    "numpy>=1.21.0",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=22.0",
+    "flake8>=4.0",
+    "mypy>=0.900",
+]
+
+[project.urls]
+Homepage = "https://github.com/M1racleShih/quantum-array"
+Repository = "https://github.com/M1racleShih/quantum-array"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qarray*"]
+
+[tool.setuptools.package-data]
+qarray = ["py.typed"]

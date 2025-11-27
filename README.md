@@ -1,5 +1,11 @@
 # QArray: Using qubits and couplers from an array perspective
 
+[![PyPI version](https://img.shields.io/pypi/v/quantum-array.svg)](https://pypi.org/project/quantum-array/)
+[![Python versions](https://img.shields.io/pypi/pyversions/quantum-array.svg)](https://pypi.org/project/quantum-array/)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![GitHub issues](https://img.shields.io/github/issues/M1racleShih/quantum-array.svg)](https://github.com/M1racleShih/quantum-array/issues)
+[![GitHub stars](https://img.shields.io/github/stars/M1racleShih/quantum-array.svg)](https://github.com/M1racleShih/quantum-array/stargazers)
+
 QArray is a small Python library for **expressing and manipulating quantum chip topologies** with an array / geometry view:
 
 > You describe the chip as a 2D array of qubits and couplers, rather than as an abstract graph of nodes and edges.
